@@ -160,7 +160,7 @@ Thank you.`,
     },
     en: {
       title: "Rashtriya Swayamsevak Sangh Hebbagodi Nagar",
-      subtitle: "Hebbagodi Nagar",
+      subtitle: "Vasudhaiva Kutumbakam",
       totalVasati: "Total Vasati",
       searchPlaceholder: "Search Vasati...",
       noResults: "No results found",
