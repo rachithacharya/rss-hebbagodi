@@ -192,31 +192,32 @@ Thank you.`,
     <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-green-50">
       {/* Header */}
       <header className="bg-gradient-to-r from-orange-600 via-orange-500 to-orange-600 text-white shadow-lg">
-        <div className="container mx-auto px-3 sm:px-4 py-4 sm:py-6">
-          <div className="flex flex-col items-center mb-3 gap-2">
-            <div className="flex items-center justify-center gap-2 sm:gap-3">
+        <div className="container mx-auto px-4 py-6">
+          <div className="flex items-center justify-between mb-2">
+            <div className="w-12"></div>
+            <div className="flex items-center gap-3">
               <span className="flex items-center">
-                <img src="./om.png" alt="RSS" className="w-8 h-8 sm:w-10 sm:h-10" />
+                <img src="./om.png" alt="RSS" className="w-10 h-10" />
               </span>
-              <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-center break-words leading-tight">
+              <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold text-center break-words leading-snug">
                 {t.title}
               </h1>
               <span className="flex items-center">
-                <img src="./om.png" alt="RSS" className="w-8 h-8 sm:w-10 sm:h-10" />
+                <img src="./om.png" alt="RSS" className="w-10 h-10" />
               </span>
             </div>
             <button
               onClick={toggleLanguage}
-              className="bg-white bg-opacity-20 hover:bg-opacity-30 px-3 py-1.5 sm:p-2 rounded-lg transition-all flex items-center gap-2 text-xs sm:text-sm font-semibold"
+              className="bg-white bg-opacity-20 hover:bg-opacity-30 p-2 rounded-lg transition-all flex items-center gap-2 text-sm font-semibold"
               title="Change Language"
             >
-              <Globe className="w-4 h-4 sm:w-5 sm:h-5" />
+              <Globe className="w-5 h-5" />
               <span className="hidden sm:inline">
                 {language === "kn" ? "EN" : "ಕನ್ನಡ"}
               </span>
             </button>
           </div>
-          <p className="text-center text-base sm:text-lg md:text-xl lg:text-2xl font-semibold">{t.subtitle}</p>
+          <p className="text-center text-sm sm:text-base md:text-lg lg:text-xl font-semibold">{t.subtitle}</p>
         </div>
       </header>
 
