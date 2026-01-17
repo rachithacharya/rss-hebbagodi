@@ -150,7 +150,7 @@ Thank you.`,
   const content = {
     kn: {
       title: "ರಾಷ್ಟ್ರಿಯ ಸ್ವಯಂಸೇವಕ ಸಂಘ ಹೆಬ್ಬಗೋಡಿ ನಗರ",
-      subtitle: "ಹೆಬ್ಬಗೋಡಿ ನಗರ",
+      subtitle: "ವಸುಧೈವ ಕುಟುಂಬಕಂ",
       totalVasati: "ಒಟ್ಟು ವಸತಿಗಳು",
       searchPlaceholder: "ವಸತಿ ಹುಡುಕಿ...",
       noResults: "ಯಾವುದೇ ಫಲಿತಾಂಶಗಳು ಕಂಡುಬಂದಿಲ್ಲ",
@@ -199,7 +199,7 @@ Thank you.`,
               <span className="flex items-center">
                 <img src="./om.png" alt="RSS" className="w-10 h-10" />
               </span>
-              <h1 className="text-2xl md:text-3xl font-bold text-center">
+              <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold text-center break-words leading-snug">
                 {t.title}
               </h1>
               <span className="flex items-center">
@@ -217,7 +217,7 @@ Thank you.`,
               </span>
             </button>
           </div>
-          <p className="text-center text-lg font-semibold">{t.subtitle}</p>
+          <p className="text-center text-sm sm:text-base md:text-lg lg:text-xl font-semibold">{t.subtitle}</p>
         </div>
       </header>
 
